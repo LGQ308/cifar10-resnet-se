@@ -39,6 +39,10 @@
 # 1) 环境
 python -m venv .venv
 .venv\Scripts\activate            # Windows
+
+# 先装 GPU 版 PyTorch（PyPI 上的 Windows wheel 是 CPU 版，需走官方索引）
+pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+# 其余依赖
 pip install -r requirements.txt
 
 # 2) 数据集（CIFAR-10）
