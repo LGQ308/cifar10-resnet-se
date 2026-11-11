@@ -41,8 +41,10 @@ python -m venv .venv
 .venv\Scripts\activate            # Windows
 pip install -r requirements.txt
 
-# 2) 数据集（CIFAR-10，自动下载并校验）
-python -c "from torchvision import datasets; datasets.CIFAR10('data', train=True, download=True)"
+# 2) 数据集（CIFAR-10）
+#    官方源 cs.toronto.edu 在国内常被重置，torchvision 直接 download=True 会卡在几 MB。
+#    下面脚本改走 ModelScope 镜像并校验官方 MD5，下完 torchvision 会自动解压。
+python get_data.py
 
 # 3) 训练基线与对照模型（各 200 epoch）
 python train.py --model resnet20    --epochs 200 --out runs/resnet20_200
