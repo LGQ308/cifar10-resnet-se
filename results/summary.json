@@ -1,0 +1,52 @@
+[
+  {
+    "model": "resnet20",
+    "samples": 10000,
+    "top1_accuracy_percent": 92.59,
+    "top5_accuracy_percent": 99.81,
+    "parameters": 272474,
+    "elapsed_seconds": 1.7769545999999536,
+    "images_per_second": 5627.605792517299,
+    "device": "cuda"
+  },
+  {
+    "model": "resnet32",
+    "samples": 10000,
+    "top1_accuracy_percent": 93.53,
+    "top5_accuracy_percent": 99.77,
+    "parameters": 466906,
+    "elapsed_seconds": 1.8064322999998694,
+    "images_per_second": 5535.773469064256,
+    "device": "cuda"
+  },
+  {
+    "model": "resnet56",
+    "samples": 10000,
+    "top1_accuracy_percent": 94.37,
+    "top5_accuracy_percent": 99.83,
+    "parameters": 855770,
+    "elapsed_seconds": 2.1377503999997316,
+    "images_per_second": 4677.814584902548,
+    "device": "cuda"
+  },
+  {
+    "model": "vgg16_bn",
+    "samples": 10000,
+    "top1_accuracy_percent": 94.15,
+    "top5_accuracy_percent": 99.71,
+    "parameters": 15253578,
+    "elapsed_seconds": 2.09444590000021,
+    "images_per_second": 4774.532490907976,
+    "device": "cuda"
+  },
+  {
+    "model": "mobilenetv2_x1_0",
+    "samples": 10000,
+    "top1_accuracy_percent": 94.05,
+    "top5_accuracy_percent": 99.82,
+    "parameters": 2236682,
+    "elapsed_seconds": 2.937916200000018,
+    "images_per_second": 3403.773055201486,
+    "device": "cuda"
+  }
+]

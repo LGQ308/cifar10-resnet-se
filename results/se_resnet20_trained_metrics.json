@@ -1,0 +1,15 @@
+{
+  "model": "se_resnet20",
+  "checkpoint": "runs\\se_resnet20_200\\best.pt",
+  "checkpoint_mb": 1.15,
+  "parameters": 275162,
+  "mflops_32x32": 81.63,
+  "top1_accuracy_percent": 93.01,
+  "top5_accuracy_percent": 99.71,
+  "latency_ms_batch1": 3.57,
+  "latency_ms_batch32": 3.72,
+  "throughput_img_per_s": 8601.7,
+  "train_epochs": 192,
+  "saved_test_acc": 93.0,
+  "device": "cuda"
+}

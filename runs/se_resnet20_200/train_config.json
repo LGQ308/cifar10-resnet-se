@@ -1,0 +1,21 @@
+{
+  "model": "se_resnet20",
+  "parameters": 275162,
+  "epochs": 200,
+  "batch_size": 128,
+  "lr": 0.1,
+  "momentum": 0.9,
+  "weight_decay": 0.0005,
+  "label_smoothing": 0.0,
+  "scheduler": "cosine",
+  "seed": 42,
+  "device": "cuda",
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+  "python": "3.12.14 (main, Sep  1 2026, 14:17:39) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.22631-SP0",
+  "train_size": 50000,
+  "test_size": 10000,
+  "augmentation": "RandomCrop(32,padding=4) + RandomHorizontalFlip"
+}

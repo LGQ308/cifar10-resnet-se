@@ -1,0 +1,51 @@
+[
+  {
+    "name": "cifar10_resnet20-4118986f.pt",
+    "kind": "公开预训练权重",
+    "size_mb": 1.14,
+    "sha256_16": "4118986f0df73003",
+    "source": "chenyaofo/pytorch-cifar-models"
+  },
+  {
+    "name": "cifar10_resnet32-ef93fc4d.pt",
+    "kind": "公开预训练权重",
+    "size_mb": 1.94,
+    "sha256_16": "ef93fc4d3ea83c08",
+    "source": "chenyaofo/pytorch-cifar-models"
+  },
+  {
+    "name": "cifar10_resnet56-187c023a.pt",
+    "kind": "公开预训练权重",
+    "size_mb": 3.56,
+    "sha256_16": "187c023aee0c9cf3",
+    "source": "chenyaofo/pytorch-cifar-models"
+  },
+  {
+    "name": "cifar10_vgg16_bn-6ee7ea24.pt",
+    "kind": "公开预训练权重",
+    "size_mb": 61.08,
+    "sha256_16": "6ee7ea24b52cfbbe",
+    "source": "chenyaofo/pytorch-cifar-models"
+  },
+  {
+    "name": "cifar10_mobilenetv2_x1_0-fe6a5b48.pt",
+    "kind": "公开预训练权重",
+    "size_mb": 9.19,
+    "sha256_16": "fe6a5b4808c9b1b7",
+    "source": "chenyaofo/pytorch-cifar-models"
+  },
+  {
+    "name": "resnet20_best.pt",
+    "kind": "本文自训练权重",
+    "size_mb": 1.13,
+    "sha256_16": "23fb5d87accbdab8",
+    "source": "train.py (this work)"
+  },
+  {
+    "name": "se_resnet20_best.pt",
+    "kind": "本文自训练权重",
+    "size_mb": 1.15,
+    "sha256_16": "65fdeb1029e6aacb",
+    "source": "train.py (this work)"
+  }
+]

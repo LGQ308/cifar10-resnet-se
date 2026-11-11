@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Data & caches
+data/
+*.tar.gz
+.ipynb_checkpoints/
+
+# Training artefacts that duplicate weights/
+runs/*/last.pt
+
+# Editors / OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+~$*

@@ -1,0 +1,27 @@
+Third-party notices
+===================
+
+Public pretrained checkpoints
+-----------------------------
+The five public checkpoints used for the reproduction experiments
+(cifar10_resnet20, cifar10_resnet32, cifar10_resnet56, cifar10_vgg16_bn,
+cifar10_mobilenetv2_x1_0) are published by:
+
+    chenyaofo/pytorch-cifar-models
+    https://github.com/chenyaofo/pytorch-cifar-models
+    Licensed under BSD 3-Clause
+
+They are NOT redistributed in this repository; they are downloaded at run time
+through torch.hub.  The model architectures implemented in se_resnet.py follow
+the descriptions of:
+
+  * He K, Zhang X, Ren S, et al. Deep residual learning for image recognition. CVPR 2016.
+  * Hu J, Shen L, Sun G. Squeeze-and-excitation networks. CVPR 2018.
+
+The implementation itself is original and is released under the MIT License
+(see LICENSE).
+
+CIFAR-10 dataset
+----------------
+Krizhevsky A. Learning multiple layers of features from tiny images.
+University of Toronto, 2009.  Distributed for research use; not included here.

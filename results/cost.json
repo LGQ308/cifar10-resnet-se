@@ -1,0 +1,65 @@
+[
+  {
+    "name": "ResNet-20",
+    "parameters": 272474,
+    "size_mb": 1.14,
+    "latency_ms_batch1": 1.853,
+    "latency_ms_batch32": 2.019,
+    "throughput_img_per_s": 15852.5,
+    "mflops": 81.63
+  },
+  {
+    "name": "ResNet-32",
+    "parameters": 466906,
+    "size_mb": 1.94,
+    "latency_ms_batch1": 2.907,
+    "latency_ms_batch32": 2.964,
+    "throughput_img_per_s": 10796.6,
+    "mflops": 138.25
+  },
+  {
+    "name": "ResNet-56",
+    "parameters": 855770,
+    "size_mb": 3.56,
+    "latency_ms_batch1": 4.977,
+    "latency_ms_batch32": 5.171,
+    "throughput_img_per_s": 6188.0,
+    "mflops": 251.5
+  },
+  {
+    "name": "VGG-16-BN",
+    "parameters": 15253578,
+    "size_mb": 61.08,
+    "latency_ms_batch1": 2.225,
+    "latency_ms_batch32": 3.993,
+    "throughput_img_per_s": 8013.7,
+    "mflops": 627.45
+  },
+  {
+    "name": "MobileNetV2",
+    "parameters": 2236682,
+    "size_mb": 9.19,
+    "latency_ms_batch1": 3.925,
+    "latency_ms_batch32": 6.974,
+    "throughput_img_per_s": 4588.3,
+    "mflops": 175.95
+  },
+  {
+    "name": "ResNet-20（自训练）",
+    "parameters": 272474,
+    "size_mb": 1.13,
+    "latency_ms_batch1": 1.887,
+    "latency_ms_batch32": 1.861,
+    "throughput_img_per_s": 17196.9,
+    "mflops": 81.63
+  },
+  {
+    "name": "SE-ResNet-20（自训练）",
+    "parameters": 275162,
+    "size_mb": 1.15,
+    "latency_ms_batch1": 3.075,
+    "latency_ms_batch32": 3.148,
+    "throughput_img_per_s": 10163.7,
+    "mflops": 81.63
+  }
+]
